@@ -3,6 +3,7 @@ package helloworld;
 public class Book {
 	private String title;
 	private String isbn;
+	private float price;
 	
 	public Book(String theTitle, String theISBN) {
 		this.title = theTitle;
@@ -26,5 +27,9 @@ public class Book {
 		this.isbn = isbn;
 	}
 	
+	public void setPrice(float thePrice) {
+		this.price = thePrice;
+	}
+ 	
 
 }
