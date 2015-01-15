@@ -3,6 +3,7 @@ package foo;
 public class Dummy {
 	
 	private String localAttribut;
+	private int onlineAttribut;
 
 	public Dummy() {
 		// TODO Auto-generated constructor stub
@@ -15,6 +16,10 @@ public class Dummy {
 	
 	public String getLocalAttribut() {
 		return this.localAttribut;
+	}
+
+	public int getOnlineAttribut() {
+		return this.onlineAttribut;
 	}
 
 }
