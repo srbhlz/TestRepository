@@ -4,11 +4,20 @@ public class Book {
 	private String title;
 	private String isbn;
 	private float price;
+	private String author;
 	
 	public Book(String theTitle, String theISBN) {
 		this.title = theTitle;
 		this.isbn = theISBN;
 		
+	}
+	
+	public String getAuthor() {
+		return this.author;
+	}
+	
+	public void setAuthor() {
+		this.author = author;
 	}
 
 	public String getTitle() {
