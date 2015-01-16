@@ -5,11 +5,16 @@ public class Book {
 	private String isbn;
 	private float price;
 	private String author;
+	private int year;
 	
 	public Book(String theTitle, String theISBN) {
 		this.title = theTitle;
 		this.isbn = theISBN;
 		
+	}
+	
+	public int getYear() {
+		return this.year;
 	}
 	
 	public String getAuthor() {
