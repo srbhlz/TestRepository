@@ -14,6 +14,7 @@ public class Book {
 	
 	/*
 	 * Konstruktor
+	 * blablabla
 	 */
 	public Book(String theTitle, String theISBN) {
 		this.title = theTitle;
