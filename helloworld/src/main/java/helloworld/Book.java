@@ -12,6 +12,9 @@ public class Book {
 	private String author;
 	private int year;
 	
+	/*
+	 * Konstruktor
+	 */
 	public Book(String theTitle, String theISBN) {
 		this.title = theTitle;
 		this.isbn = theISBN;
