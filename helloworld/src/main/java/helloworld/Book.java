@@ -27,7 +27,7 @@ public class Book {
 		return this.author;
 	}
 	
-	public void setAuthor() {
+	public void setAutor() {
 		this.author = author;
 	}
 
