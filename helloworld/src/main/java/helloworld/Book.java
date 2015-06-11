@@ -38,7 +38,7 @@ public class Book {
 		this.title = title;
 	}
 
-	public String getIsbn() {
+	public String getISBN() {
 		return isbn;
 	}
 
