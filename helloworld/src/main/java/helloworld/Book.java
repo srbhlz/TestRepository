@@ -23,7 +23,7 @@ public class Book {
 		return this.year;
 	}
 	
-	public String getAuthor() {
+	public String getAutor() {
 		return this.author;
 	}
 	
