@@ -42,7 +42,7 @@ public class Book {
 		return isbn;
 	}
 
-	public void setIsbn(String isbn) {
+	public void setISBN(String isbn) {
 		this.isbn = isbn;
 	}
 	
